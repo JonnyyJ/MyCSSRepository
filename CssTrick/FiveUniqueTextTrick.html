@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+      html{
+          background-color: #DDD;
+      }
+      .header{
+          font-size: 5rem;
+          padding: .5rem;
+          background-color: blue;
+          color: yellow;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          background-image: url('water.jpg');
+          -webkit-background-clip: text;
+          color: transparent; 
+      }
+      /* initiate the value */
+      /* .header{
+          all: initial
+      } */
+      .body{
+          padding: 5rem;
+          text-shadow: 0 -20px 1px green;
+
+      }
+      .card{
+          width: 400px;
+          background-color: white;
+          border: 1px solid black
+      }
+      .pill{
+          border-radius: 9999px;
+      }
+      .ellipse{
+          border-radius: 50%;
+      }
+      button{
+          background-color: blue;
+          color: white;
+          border: none;
+          padding: .25rem, .5rem;
+      }
+   </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            test test test test test test test test test test test test 
+            test test 
+        </div>
+        <div class="body">
+            test test test test test test test 
+            test test test test test test test 
+            test test test test test test test test 
+            test test test test test test test 
+            <button class="ellipse">Ellipse</button>
+            <button class="pill">Pill Shape</button>
+        </div>
+        
+    </div>
+</body>
+</html>
